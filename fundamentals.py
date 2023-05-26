@@ -37,6 +37,26 @@ dynamic_greeting('simret')
 dynamic_greeting('lula')
 dynamic_greeting('lu')
 
+treasuerArry=['simret','lula','lu','treasure']
+treasuerArry2=['simret','lula','lu','marv']
+def find_treasure(string):
+    for str in string: 
+      if (str =='treasure'):
+         return True
+    return False 
+print(find_treasure(treasuerArry))
+print(find_treasure(treasuerArry2)) 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
